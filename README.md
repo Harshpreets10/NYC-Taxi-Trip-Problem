@@ -5,15 +5,25 @@ This project focuses on performing Exploratory Data Analysis (EDA) on the NYC Ta
 The dataset consists of the following variables:
 
 **id:** A unique identifier for each trip.
+
 **vendor_id:** A code indicating the provider associated with the trip record.
+
 **pickup_datetime:** Date and time when the meter was engaged.
+
 **dropoff_datetime:** Date and time when the meter was disengaged.
+
 **passenger_count:** The number of passengers in the vehicle (driver-entered value).
+
 **pickup_longitude:** The longitude where the meter was engaged.
+
 **pickup_latitude:** The latitude where the meter was engaged.
+
 **dropoff_longitude:** The longitude where the meter was disengaged.
+
 **dropoff_latitude:** The latitude where the meter was disengaged.
+
 **store_and_fwd_flag:** Flag indicating whether the trip record was held in vehicle memory before sending to the vendor (Y=store and forward; N=not a store and forward trip).
+
 **trip_duration:** Duration of the trip in seconds (target variable).
 
 ## Steps Performed
